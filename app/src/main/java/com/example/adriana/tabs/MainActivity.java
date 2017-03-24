@@ -110,7 +110,7 @@ public class MainActivity extends ActionBarActivity  implements
 
         for (int i = 1; i <= 2; i++) {
 
-            TabHost.TabSpec tabSpec;
+            TabHost.TabSpec tabSpec;//
             tabSpec = tabHost.newTabSpec("Tab " + i);
             tabSpec.setIndicator("Tab " + i);
             tabSpec.setContent(new FakeContent(this));
