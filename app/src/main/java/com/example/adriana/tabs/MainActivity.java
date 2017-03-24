@@ -25,7 +25,7 @@ import android.widget.TabHost.TabContentFactory;
 
 public class MainActivity extends ActionBarActivity  implements
         OnTabChangeListener, OnPageChangeListener {
-    private TabHost tabHost;//Jpña
+    private TabHost tabHost;//Jpñamm
     private ViewPager viewPager;
     private MyFragmentPageAdapter myViewPagerAdapter;
     int i = 0;
